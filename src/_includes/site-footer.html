@@ -3,18 +3,15 @@
         The Computer Museum
     </h4>
 
-    <ul>
-        <li>
-            <a href="">Gallery</a>
+    <ul class="u-list-reset">
+        {% assign nav = collections.nav | sortByPageOrder %}
+        {% for item in nav %}
+        <li {% if page.url == item.url %} aria-current="page" {% endif %}>
+            <a href="{{ item.url }}">
+                {{ item.data.pageTitle }}
+            </a>
         </li>
-
-        <li>
-            <a href="">About Us</a>
-        </li>
-
-        <li>
-            <a href="">Contact Us</a>
-        </li>
+        {% endfor %}
     </ul>
 
     <p>
