@@ -1,1 +1,17 @@
-.site-header {}
+.site-header {
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    li {
+        width: 80px;
+        margin: 10px;
+        align-self: center;
+    }
+}
