@@ -22,15 +22,26 @@ section {
 }
 
 .site-name {
- color: white;
- font-size: 20px;
+  color: $light;
+  text-decoration: none;
+  margin: 40px auto 20px auto;
+}
+
+.top {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.bot {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 button {
   background-color: transparent;
   border: 0;
   width: 100%;
-  padding: 0 ;
+  padding: 0;
 
   a {
     display: block;
