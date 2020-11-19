@@ -1,1 +1,18 @@
-.site-nav {}
+.site-nav {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    li {
+        margin: 10px;
+        align-self: center;
+    }
+
+    a {
+        color: $light;
+        text-decoration: none;
+    }
+}
