@@ -1,17 +1,28 @@
 .site-header {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: $blue;
+    
+    
+    h1 {
+        color: $light;
+    }
 
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
 
     }
 
     li {
-        width: 80px;
         margin: 10px;
         align-self: center;
+    }
+
+    a {
+        color: $light;
+        text-decoration: none;
     }
 }
