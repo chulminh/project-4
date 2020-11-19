@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default.html
 pageTitle: Home
 tags: nav
@@ -6,3 +6,58 @@ order: 1
 ---
 
 <p>Add the HTML for your homepage here.</p>
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        {% if pageTitle %}
+        {{ pageTitle }} -
+        {% endif %}
+        {{ siteData.name }}
+    </title>
+
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- {{ content | safe }} -->
+
+    <header>
+        <h1>
+            The Computer Museum
+        </h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="">About Us</a>
+                </li>
+
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h4>
+            !! Due to COVID19, The Computer Museum will only be taking visitors by appointment !!
+        </h4>
+    </section>
+
+<section ></section>
+
+</body>
+
+</html>
