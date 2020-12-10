@@ -6,12 +6,15 @@
     }
 
     li {
+        overflow: hidden;
+        position: relative;
         width: 200px;
         height: 200px;
         text-align: center;
 
         h2 {
             font-size: 20px;
+            margin: 0;
         }
 
         a {
@@ -21,6 +24,11 @@
     }
 
     img {
-        height: 80%;
+        display: block;
+        position: relative;
+        height: 100%;
+        width: auto;
+        margin: 0 auto;
+        justi
     }
 }
