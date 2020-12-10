@@ -1,0 +1,16 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+
+    a {
+        color: $dark;
+        text-decoration: none;
+    }
+}
