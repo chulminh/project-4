@@ -37,24 +37,12 @@ section {
 }
 
 
-.slide {
-  margin: 0 auto;
-  overflow: hidden;
-  height: 600px;
-  opacity: 0.8;
-}
-
-.slide button {
-  position: relative;
-  bottom: 15px;
-  opacity: 1.2;
-}
-
 button {
   background-color: transparent;
   border: 0;
   width: 100%;
   padding: 0;
+  opacity: 1;
 
   a {
     display: block;
