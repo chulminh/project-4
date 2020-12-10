@@ -10,9 +10,10 @@
         display: block;
         position: relative;
         text-align: center;
-        width: 800px;
-        height: 500px;
+        width: 1000px;
         overflow: hidden;
+        margin: 20px;
+        border-radius: 10px;
 
         h2 {
             position: absolute;
@@ -23,7 +24,7 @@
             font-weight: 700;
             color: #fff;
             padding: 20px;
-            border-radius: 0 0 10px 10px;
+            margin: 0;
         }
 
         a {
@@ -31,13 +32,9 @@
             text-decoration: none;
         }
 
-
-
         img {
-            position: absolute;
             display: block;
-
-            border-radius: 0 0 10px 10px;
         }
     }
 }
+
