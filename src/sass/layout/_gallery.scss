@@ -6,6 +6,7 @@
     }
 
     li {
+        display: block;
         overflow: hidden;
         position: relative;
         width: 200px;
@@ -13,22 +14,25 @@
         text-align: center;
 
         h2 {
-            font-size: 20px;
+            font-size: 18px;
+            position: absolute;
             margin: 0;
+            bottom: 0;
+            z-index: 2;
+            background-color: $transparent;
+            width: 100%;
+            padding: 10px 0;
         }
 
         a {
             color: $dark;
             text-decoration: none;
         }
-    }
 
-    img {
-        display: block;
-        position: relative;
-        height: 100%;
-        width: auto;
-        margin: 0 auto;
-        justi
+        img {
+            height: 100%;
+            width: auto;
+            z-index: 1;
+        }
     }
 }
