@@ -29,10 +29,17 @@
             text-decoration: none;
         }
 
+
+
         img {
+            display: block;
             height: 100%;
             width: auto;
             z-index: 1;
         }
+    }
+
+    img:hover {
+        transform: scale(1.1);
     }
 }
