@@ -1,0 +1,11 @@
+{% assign gallery = collections.gallery | sortByPageOrder%}
+{% for item in gallery %}
+<li class="card">
+    <img src="{{ item.data.image }}" alt="">
+    <h2>
+        <a href="{{ item.url }}">
+            {{ item.data.pageTitle}}
+        </a>
+    </h2>
+</li>
+{% endfor %}

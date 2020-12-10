@@ -2,6 +2,7 @@
     ul {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     li {
@@ -9,9 +10,17 @@
         height: 200px;
         text-align: center;
 
+        h2 {
+            font-size: 20px;
+        }
+
         a {
             color: $dark;
             text-decoration: none;
         }
+    }
+
+    img {
+        height: 80%;
     }
 }
