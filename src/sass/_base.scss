@@ -13,9 +13,13 @@ section {
   flex-wrap: wrap;
 
   h2 {
-    margin: 0;
     text-align: center;
     width: 100%;
+  }
+
+  p {
+    width: 600px;
+    margin: 0 auto;
   }
 }
 
@@ -36,11 +40,22 @@ section {
   font-weight: 700;
 }
 
+h1 {
+  width: 800px;
+}
+
+.landing img {
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+  overflow: hidden;
+}
 
 button {
   background-color: transparent;
   border: 0;
-  width: 100%;
+  margin: 0 auto;
+  width: 60%;
   padding: 0;
   opacity: 1;
 
