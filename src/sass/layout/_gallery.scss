@@ -3,6 +3,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        margin: 40px;
     }
 
     li {
@@ -11,15 +12,18 @@
         text-align: center;
         width: 800px;
         height: 500px;
+        overflow: hidden;
 
         h2 {
-            font-size: 18px;
             position: absolute;
-            margin: 0;
             bottom: 0;
-            background-color: $transparent;
+            background-color: $button;
             width: 100%;
-            padding: 10px 0;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+            padding: 20px;
+            border-radius: 0 0 10px 10px;
         }
 
         a {
@@ -32,6 +36,8 @@
         img {
             position: absolute;
             display: block;
+
+            border-radius: 0 0 10px 10px;
         }
     }
 }
