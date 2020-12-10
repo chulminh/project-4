@@ -7,18 +7,16 @@
 
     li {
         display: block;
-        overflow: hidden;
         position: relative;
-        width: 200px;
-        height: 200px;
         text-align: center;
+        width: 800px;
+        height: 500px;
 
         h2 {
             font-size: 18px;
             position: absolute;
             margin: 0;
             bottom: 0;
-            z-index: 2;
             background-color: $transparent;
             width: 100%;
             padding: 10px 0;
@@ -32,14 +30,8 @@
 
 
         img {
+            position: absolute;
             display: block;
-            height: 100%;
-            width: auto;
-            z-index: 1;
         }
-    }
-
-    img:hover {
-        transform: scale(1.1);
     }
 }
