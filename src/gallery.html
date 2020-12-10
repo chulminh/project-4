@@ -9,14 +9,16 @@ order: 2
     Gallery
 </h1>
 
-<ul class="u-list-reset" class="gallery">
-    {% for item in collections.gallery %}
-    <li class="card">
-        <h2>
-            <a href="{{ item.url }}">
-                {{ item.data.pageTitle}}
-            </a>
-        </h2>
-    </li>
-    {% endfor %}
-</ul>
+<div class="gallery">
+    <ul class="u-list-reset">
+        {% for item in collections.gallery %}
+        <li class="card">
+            <h2>
+                <a href="{{ item.url }}">
+                    {{ item.data.pageTitle}}
+                </a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

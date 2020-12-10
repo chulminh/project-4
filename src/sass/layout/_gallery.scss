@@ -1,16 +1,17 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-}
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
 
-.card {
-    width: 200px;
-    height: 200px;
+    li {
+        width: 200px;
+        height: 200px;
+        text-align: center;
 
-    a {
-        color: $dark;
-        text-decoration: none;
+        a {
+            color: $dark;
+            text-decoration: none;
+        }
     }
 }
