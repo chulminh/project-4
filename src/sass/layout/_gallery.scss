@@ -16,7 +16,6 @@
         width: 800px;
 
         h2 {
-            position: absolute;
             background-color: $button;
             bottom: 0;
             color: #fff;
@@ -24,6 +23,7 @@
             font-weight: 700;
             margin: 0;
             padding: 30px;
+            position: absolute;
             width: 100%;
         }
 
