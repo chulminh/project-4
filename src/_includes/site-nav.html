@@ -6,7 +6,14 @@
       <a href="{{ item.url }}">
         {{ item.data.pageTitle }}
       </a>
-      <p>hellow</p>
+      <div>
+        {% assign smallnav = collections.smallnav | sortByPageOrder %}
+        {% for item in smallnav %}
+        <a href="{{ item.url }}">
+          {{ item.data.pageTitle }}
+        </a>
+        {% endfor %}
+      </div>
     </li>
     {% endfor %}
   </ul>
