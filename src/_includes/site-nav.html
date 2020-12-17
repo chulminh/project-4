@@ -6,18 +6,8 @@
       <a href="{{ item.url }}">
         {{ item.data.pageTitle }}
       </a>
-      <div>
-        {% assign smallnav = collections.smallnav | sortByPageOrder %}
-        {% for item in gallery %}
-        <p>
-          {{ item.data.pageTitle }}
-        </p>
-        {% end%}
-      </div>
+      <p>hellow</p>
     </li>
-
     {% endfor %}
   </ul>
 </nav>
-
-<script src="/js/accordion.js"></script>
