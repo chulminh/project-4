@@ -7,14 +7,12 @@
         {{ item.data.pageTitle }}
       </a>
       <div>
-        {% if pageTitle = Gallery %}
         {% assign smallnav = collections.smallnav | sortByPageOrder %}
-        {% for item in smallnav %}
+        {% for item in item.url, smallnav %}
         <a href="{{ item.url }}">
           {{ item.data.pageTitle }}
         </a>
         {% endfor %}
-        {% endif %}
       </div>
     </li>
     {% endfor %}
