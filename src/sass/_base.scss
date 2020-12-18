@@ -79,3 +79,11 @@ button {
     text-decoration: none;
   }
 }
+
+button svg {
+  height: 1em;
+}
+
+[aria-expanded="true"] .vert {
+  display: none;
+}

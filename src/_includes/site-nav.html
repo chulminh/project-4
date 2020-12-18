@@ -6,15 +6,29 @@
       <a href="{{ item.url }}">
         {{ item.data.pageTitle }}
       </a>
-      <div>
-        {% assign smallnav = collections.smallnav | sortByPageOrder %}
-        {% for item in item.url, smallnav %}
-        <a href="{{ item.url }}">
-          {{ item.data.pageTitle }}
-        </a>
-        {% endfor %}
-      </div>
     </li>
     {% endfor %}
   </ul>
 </nav>
+
+<nav class="site-nav js-toggle-menu">
+  <button
+    type="button"
+    class="u-button-reset js-toggle-trigger"
+    aria-controls="site-menu"
+  >
+    <span aria-hidden="true" class="menu-icon">
+      <div class="menu-icon__line"></div>
+      <div class="menu-icon__line"></div>
+      <div class="menu-icon__line"></div>
+    </span>
+    Menu
+  </button>
+  <ul id="site-menu" class="u-list-reset">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<!--       <script src="menu-bundled.js"></script> -->
+<script src="menu.js"></script>
