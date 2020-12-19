@@ -1,12 +1,12 @@
 .gallery {
     ul {
+        border: 1px solid $button;
+        border-radius: 5px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin: 20px;
-        border: 1px solid $button;
         padding: 5px;
-        border-radius: 5px;
     }
 
     li {
