@@ -10,8 +10,11 @@ body {
 
 section {
   color: $light;
-  margin: 0 auto 40px auto;
+  margin: 40px 10px;
   text-align: center;
+  border: 1px solid $button;
+  padding: 5px;
+  border-radius: 5px;
 
   h2 {
     margin: 0 auto;
@@ -24,18 +27,16 @@ section {
   }
 
   p {
-    margin: 0 auto;
+    margin: 40px auto;
     width: 90%;
     padding: 0 20%;
   }
 }
 
 .calendar {
-  input {
-    text-align: left;
-    width: 150px;
-    margin: 0 auto;
-  }
+  text-align: left;
+  width: 150px;
+  margin: 0 auto;
 
   .submit {
     background-color: $button;
@@ -47,6 +48,7 @@ section {
     margin: 20px;
     padding: 20px;
     color: #fff;
+    border: none;
   }
 }
 
