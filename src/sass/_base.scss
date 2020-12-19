@@ -31,6 +31,10 @@ section {
     width: 90%;
     padding: 0 20%;
   }
+
+  a {
+    color: $light;
+  }
 }
 
 .calendar {
@@ -81,6 +85,7 @@ section {
   margin: 0 auto;
   overflow: hidden;
   width: 70%;
+  object-fit: cover;
 }
 
 
