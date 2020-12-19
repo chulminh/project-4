@@ -1,7 +1,10 @@
 <header class="site-header">
   {% if page.url == "/" %}
-  <h1 class="site-name">{{ siteData.name }}</h1>
+  <h1 class="site-name top">{{ siteData.name }}</h1>
   {% else %}
-  <a href="/" class="site-name">{{ siteData.name }}</a>
+  <a href="/" class="site-name top">{{ siteData.name }}</a>
   {% endif %}
+
+{% include site-nav.html %}
+
 </header>

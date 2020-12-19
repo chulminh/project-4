@@ -1,1 +1,13 @@
-.site-header {}
+.site-header {
+    align-content: center;
+    background-color: $blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .site-name {
+        margin: 0;
+        padding: 40px;
+    }
+
+}

@@ -1,2 +1,24 @@
 <footer class="site-footer">
+    {% if page.url == "/" %}
+    <h4 class="site-name bot">{{ siteData.name }}</h4>
+    {% else %}
+    <a href="/" class="site-name bot">{{ siteData.name }}</a>
+    {% endif %}
+
+    <nav class="site-nav">
+        <ul class="u-list-reset">
+            {% assign nav = collections.nav | sortByPageOrder %}
+            {% for item in nav %}
+            <li {% if page.url == item.url %} aria-current="page" {% endif %}>
+                <a href="{{ item.url }}">
+                    {{ item.data.pageTitle }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <p>
+        338 Clubhouse Rd. Hunt Valley, MD 21031
+    </p>
 </footer>

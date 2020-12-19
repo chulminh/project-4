@@ -1,0 +1,44 @@
+.gallery {
+    ul {
+        border: 1px solid $button;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px;
+        padding: 5px;
+    }
+
+    li {
+        border-radius: 10px;
+        height: auto;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        width: 800px;
+
+        h2 {
+            background-color: $button;
+            bottom: 0;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0;
+            padding: 30px;
+            position: absolute;
+            width: 100%;
+        }
+
+        a {
+            color: $dark;
+            text-decoration: none;
+        }
+
+        img {
+            object-fit: cover;
+            display: block;
+            width: 100%;
+        }
+    }
+}
