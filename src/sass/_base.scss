@@ -10,19 +10,43 @@ body {
 
 section {
   color: $light;
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 auto 40px auto;
   text-align: center;
 
   h2 {
     margin: 0 auto;
+    width: 80%;
+  }
+
+  h3 {
+    margin: 0 auto;
+    width: 80%;
   }
 
   p {
     margin: 0 auto;
     width: 90%;
     padding: 0 20%;
+  }
+}
+
+.calendar {
+  input {
+    text-align: left;
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .submit {
+    background-color: $button;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
   }
 }
 
